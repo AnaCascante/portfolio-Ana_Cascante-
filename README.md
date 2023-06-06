@@ -68,3 +68,6 @@ You can link to your license file here if you're using one, or mention what lice
 ## Acknowledgments
 
 This is where you can add any acknowledgements if you'd like, such as to people who have helped you or any code snippets you'd like to mention. You can delete this section if you don't have any acknowledgements to make.
+
+Pictures used in this portafolio that are not privat are taken from: 
+Background picture: https://www.pexels.com/nb-no/bilde/teknologi-display-skjerm-melding-4439901/ 

@@ -1,0 +1,18 @@
+/*---------------------*\
+            NAV
+\* --------------------*/ 
+
+.navbar {
+    display: inline
+}
+.logo {
+    background-color: blue;
+    width: 15rem;
+    height: 15rem; 
+    border-radius: 50%;
+
+}
+.contact {
+    background-color: black;
+    flex: 1;
+}
