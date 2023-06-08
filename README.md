@@ -71,3 +71,5 @@ This is where you can add any acknowledgements if you'd like, such as to people 
 
 Pictures used in this portafolio that are not privat are taken from: 
 Background picture: https://www.pexels.com/nb-no/bilde/teknologi-display-skjerm-melding-4439901/ 
+icon Github: https://icons8.com/icons/set/github
+icon Linkedin: https://icons8.com/icons/set/linkedin
