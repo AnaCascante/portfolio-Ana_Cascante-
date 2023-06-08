@@ -1,18 +1,106 @@
 /*---------------------*\
+ VISIT CARD FRONT SIDE 
+\* --------------------*/ 
+
+body {
+    border: solid black; 
+    display: flex; 
+
+}
+
+
+.container {
+    display: flex;
+  }
+  
+.lionLeft {    
+    margin-left: auto;
+}
+
+
+
+/*---------------------*\
+SECTION INFORMATION AND PROJECTS
+\* --------------------*/ 
+
+
+
+.container {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: inherit;
+}
+
+.container .item {
+    position: relative;
+    max-width: 450px;
+    margin: 10px;
+    padding: 15 px; 
+    display: flex;
+}
+
+
+.container .item .imgbx {
+    width: auto;
+    flex: 0 0 150px; 
+}
+
+.container .item .imgbx img{
+    max-width: 100%;
+}
+
+.container .item .content {
+    margin-left:auto;
+    width: 100%;
+}
+
+.admission, .open, .shop {
+    margin-left: 20rem
+}
+
+.wheelchair {
+    width:fit-content;
+    height: fit-content;
+    width: 75px;
+    height: 100px;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 20px 100px;
+    border-radius: 50%;
+}
+
+/*---------------------*\
             NAV
 \* --------------------*/ 
 
-.navbar {
-    display: inline
-}
-.logo {
-    background-color: blue;
-    width: 15rem;
-    height: 15rem; 
-    border-radius: 50%;
 
-}
-.contact {
-    background-color: black;
-    flex: 1;
-}
+
+/*---------------------*\
+            NAV
+\* --------------------*/ 
+
+
+
+/*---------------------*\
+            NAV
+\* --------------------*/ 
+
+
+
+/*---------------------*\
+            NAV
+\* --------------------*/ 
+
+
+
+/*---------------------*\
+            NAV
+\* --------------------*/ 
+
+
+
+
+
+
