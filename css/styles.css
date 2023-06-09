@@ -171,9 +171,9 @@ p{
     border: 2px solid black ;
     border-radius: 20px;
     background-color: aquamarine;
-    width: 80%;
+    width: 75%;
     height: 30%;
-    margin: 1rem 4rem;
+    margin: 0.5rem 4rem 0.5rem 4rem;
 }
 
 .project-link{
@@ -229,18 +229,22 @@ p{
 /*---------------------*\
      FOOTER
 \* --------------------*/ 
-/*
+
 .footer {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
     position: relative; 
 }
 
 .linkFront {
+    background-color: aqua;
     position: absolute;
     top:1rem;
     left: 1rem;
-    width: 50%;
-    height: 50%;
-    background-size: cover ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
 }
 /*---------------------*\
             NAV
