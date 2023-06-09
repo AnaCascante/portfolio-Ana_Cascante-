@@ -231,12 +231,16 @@ p{
 \* --------------------*/ 
 
 .footer {
-    display: flex;
-    flex-direction: row;
     background-color: red;
-    position: relative; 
 }
 
+.linkFront{
+    background-color: antiquewhite;
+    margin:0;
+    padding: 0;
+}
+
+/*
 .linkFront {
     background-color: aqua;
     position: absolute;
