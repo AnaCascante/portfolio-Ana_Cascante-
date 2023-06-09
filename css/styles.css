@@ -47,6 +47,15 @@ body {
     padding: 20px 100px;
     border-radius: 50%;
     max-width: 100%;
+    
+}
+
+.portrait {
+    margin: 3rem 2rem;
+}
+
+.pc {
+    margin: 0 2rem;
 }
 
 .lionLeft, .lionRight {    
@@ -115,6 +124,17 @@ p{
     display:flex;
 }
 
+.myinfo {
+    margin: 0 2rem;
+}
+
+.learner {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .icon {
     width: 5%;
     margin-left: 1rem;
@@ -124,17 +144,36 @@ p{
     display:flex;
 }
 
+.projects {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+}
+
 /*---------------------*\
        PROJECTS 
 \* --------------------*/ 
+.vcproject{
+    margin: 0;
+    flex-basis: 25%;
+    
+}
 
 
+.projectContainer {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+}
 .project {
+    display: flex;
     border: 2px solid black ;
     border-radius: 20px;
     background-color: aquamarine;
-    width: 100%;
+    width: 80%;
     height: 30%;
+    margin: 1rem 4rem;
 }
 
 .project-link{
@@ -147,8 +186,10 @@ p{
 .projectimg{
     display: flex;
     background-color: blueviolet;
-    border-radius:20px;
-    width:13%;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
 }
 
 
@@ -161,30 +202,46 @@ p{
     border-radius: 20px;
 }
 
-
-/*
-.card {
-border: 2px solid black;
-border-radius: 20px;  
-background-color: rgb(204, 221, 236);
-display: flex;
-margin:0;
-width: 80%; 
-height: inherit;
+.projectimgcontainer{
+    background-color: rgb(159, 51, 143);
+    flex-basis: 25%;
+    border-radius: 20px;
+    overflow: auto;
 }
 
-.project {
-    background-color: bisque;
-    display: flex;
-}*/
+.projectinfo{
+    background-color: blue;
+    border-radius:20px;
+    flex-basis: 75%;
+    margin: 0 1rem;
+}
 
+.infotitle {
+    font-size: 1rem;
+}
+
+.infotext {
+    font-size: 0.5rem;
+}
 
 
 
 /*---------------------*\
-            NAV
+     FOOTER
 \* --------------------*/ 
+/*
+.footer {
+    position: relative; 
+}
 
+.linkFront {
+    position: absolute;
+    top:1rem;
+    left: 1rem;
+    width: 50%;
+    height: 50%;
+    background-size: cover ;
+}
 /*---------------------*\
             NAV
 \* --------------------*/ 
