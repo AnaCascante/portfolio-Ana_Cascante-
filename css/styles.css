@@ -86,9 +86,9 @@ a {
     color: black;
 }
 
-a:hover {
+.projects:hover {
     text-decoration: overline;
-    color: black;
+    color: rgb(4, 23, 170);
     font-size: 3rem;
 }
 
@@ -138,6 +138,12 @@ p{
 .icon {
     width: 5%;
     margin-left: 1rem;
+    font-size: 2rem;
+}
+
+.icon:hover {
+    color: rgb(18, 47, 237);
+    font-size: 3rem;
 }
 
 .section3{
@@ -232,12 +238,20 @@ p{
 
 .footer {
     background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: right;
+    margin: 1rem;
+
 }
+
 
 .linkFront{
     background-color: antiquewhite;
     margin:0;
     padding: 0;
+
 }
 
 /*
