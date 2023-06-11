@@ -4,7 +4,7 @@
 
 This project is to make my first portafolio as a developer. This is a page to continue working with and developing in the future. 
 
-While working with the project at the last minute I lost all the css!! and trying to figure out at 22.30 how to fix this in the best way.  The page did lose the responsivivity and the project page is something to be working with. finally I managed to make the projects page responsive, the portafoli page is not totally responsive. And I don't know why the project page has an invasion of github cats. 
+ The page did lose the responsivivity and the project page is something to be working with. finally I managed to make the projects page responsive, the portafoli page is not totally responsive. And I don't know why the project page has an invasion of github cats. 
 
 ## Description
 
