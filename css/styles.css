@@ -1,32 +1,79 @@
-  
 
-
-
-
-  
 /*---------------------*\
+     FONT FAMILIES  
+\* --------------------*/ 
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+
+/*---------------------*\
+ VISIT CARD FRONT SIDE 
+\* --------------------*/
+body {
+    font-family: Permanent Marker, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 211, 211);   
+}
+
+.container {
+    border: 5px solid black;
+    border-radius: 20px;  
+    background-color: rgb(204, 221, 236);
+    display: flex;
+    margin:4rem;
+    width: 90%; 
+    height: inherit;
+  }
+
+  .vcFront{
+    margin: 0;
+    flex-basis: 75%;
+  }
+
+  .AnaCas{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+  }
+
+  .linksGL{
+    background-color: aqua;
+    margin: 2rem 35rem;
+}
+
+.feu {
+    display: flex;
+    margin: 0 20%;
+}
+
+.myinfo{
+    display: inherit;
+    background-color: aquamarine;
+    margin: 0 15%;
+}
+
+.office {
+    display: 
+}
+
+  /*---------------------*\
     CSS PICTURES 
 \* --------------------*/ 
 
-.portrait, .pc {
+.portraitFP, .pc {
     width:fit-content;
     height: fit-content;
-    width: 75px;
-    height: 100px;
+    width: 20%;
+    height: 20%;
     max-width: 50%;
     max-height: 50%;
     padding: 20px 100px;
     border-radius: 50%;
     max-width: 100%;
     
-}
-
-.portrait {
-    margin: 3rem 2rem;
-}
-
-.pc {
-    margin: 0 2rem;
 }
 
 .lionLeft, .lionRight {    
@@ -46,3 +93,76 @@
     border-radius:20px;
     width:10%;
 }
+
+/*---------------------*\
+    COMMON CSS DRY
+\* --------------------*/ 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.projects:hover {
+    text-decoration: overline;
+    color: rgb(2, 7, 40);
+    font-size: 10rem;
+}
+
+h1{
+    font-size: 15rem;
+}
+h2{
+    font-size: 7rem;
+}
+p{
+    font-size: 5rem;
+}
+
+/*---------------------*\
+     
+\* --------------------*/ 
+
+/*---------------------*\
+     
+\* --------------------*/ 
+
+
+
+
+
+
+
+/*<div class="container">
+    <div class="vcFront">
+        <section class="section1">
+            '<div class="AnaCas">
+                <img src="img/portrait2.jpg" alt="portrait" class="portraitFP"/>
+                <h1 class="myName">ANA CASCANTE</h1>
+            </div>
+        
+        <h2 class="feu">WANNABE FRONT-END DEVELOPER</h2>
+        </section>
+        <section class="section2">
+            
+            <div class="myinfo">
+                <h2 class="learner">Adventurous Learner</h2>
+                <p>I am an enthusiastic individual with a passion for learning, skill development, and embracing new challenges. Today, I invite you to join me on my journey starting this new adventure.</p>
+                <!--- make a .dev domain-next level portafolio -->
+                <div class="linksGL">
+                    <a href="https://github.com/AnaCascante"><img src ="img/Github.png" class="icon github"></a>
+                    <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><img src ="img/linkedin.png" class="icon linkedin"></a>
+                </div>
+            </div>
+        </section>  
+        <section class="section3">
+        <div class="office">
+        <img src="img/coding-background.jpg" alt="pc coding" class="pc">
+        <h2><a href="projects.html" class="projects">PROJECTS</a></h2>
+        </div>
+      
+        </div>
+        </section>
+        <div class="lionLeft"><img src="img/lion2left.jpg" alt="left halv lion face" class="lion2left"/>
+        </div>
+    </div> 
