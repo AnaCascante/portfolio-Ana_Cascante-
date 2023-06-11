@@ -4,6 +4,8 @@
 
 This project is to make my first portafolio as a developer. This is a page to continue working with and developing in the future. 
 
+While working with the project at the last minute I lost all the css!! and trying to figure out at 22.30 how to fix this in the best way.  The page did lose the responsivivity and the project page is something to be working with. 
+
 ## Description
 
 As a developer, you will have to maintain a level of professionalism. This extends past writing code. We need to document our apps so that other developers can run the code without any issues. We also need to keep a professional-looking portfolio so that others have confidence in us and the work that we do.
