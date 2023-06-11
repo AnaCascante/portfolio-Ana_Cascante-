@@ -1,0 +1,532 @@
+
+/*---------------------*\
+     FONT FAMILIES  
+\* --------------------*/ 
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Permanent Marker', cursive;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+
+
+/*---------------------*\
+ VISIT CARD FRONT SIDE 
+\* --------------------*/ 
+body {
+    font-family: Permanent Marker, Geneva, Tahoma, sans-serif;
+    background-color: rgb(211, 211, 211);   
+}
+
+.container {
+    border: 5px solid black;
+    border-radius: 20px;  
+    background-color: rgb(204, 221, 236);
+    display: flex;
+    margin:0;
+    width: 80%; 
+    height: inherit;
+  }
+
+  .vcFront{
+    margin: 0;
+    flex-basis: 75%;
+}
+  
+/*---------------------*\
+    CSS PICTURES 
+\* --------------------*/ 
+
+.portrait, .pc {
+    width:fit-content;
+    height: fit-content;
+    width: 75px;
+    height: 100px;
+    max-width: 50%;
+    max-height: 50%;
+    padding: 20px 100px;
+    border-radius: 50%;
+    max-width: 100%;
+    
+}
+
+.portrait {
+    margin: 3rem 2rem;
+}
+
+.pc {
+    margin: 0 2rem;
+}
+
+.lionLeft, .lionRight {    
+    margin-left: auto;
+    flex-basis: 25%;
+
+}
+
+.lion2left, .lion2right {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+.projectimg{
+    border-radius:20px;
+    width:10%;
+}
+
+
+/*---------------------*\
+    COMMON CSS DRY
+\* --------------------*/ 
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.projects:hover {
+    text-decoration: overline;
+    color: rgb(2, 7, 40);
+    font-size: 3rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 1rem;
+}
+
+/*---------------------*\
+    SECTION INFORMATION
+\* --------------------*/ 
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+.myName{
+    margin-bottom: 0; 
+}
+
+.feu{
+    margin-top: 0;
+}
+
+.section2{
+    display:flex;
+}
+
+.myinfo {
+    margin: 0 2rem;
+}
+
+.learner {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons {
+    display: flex;
+}
+
+.icon {
+    width: 5%;
+    margin-left: 1rem;
+    font-size: 2rem;
+}
+
+/*--- this is not working!! */
+.icon:hover {
+    color: rgb(18, 47, 237);
+    font-size: 3rem;
+}
+
+.section3{
+    display:flex;
+}
+
+.projects {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+/*---------------------*\
+       PROJECTS 
+\* --------------------*/ 
+.vcproject{
+    margin: 0;
+    flex-basis: 25%;
+    
+}
+
+.projectContainer {
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 65%;
+    margin: 1rem;
+}
+
+.project {
+    display: flex;
+    border: 2px solid black ;
+    border-radius: 20px;
+    background-color: aquamarine;
+    width: 80%;
+    height: 25%;
+    margin-bottom: 0.5rem;
+}
+
+.project-link{
+    background-color: azure;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem; 
+}
+
+.projectimg{
+    display: flex;
+    background-color: blueviolet;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+}
+
+
+/*---------------------*\
+    PROJECT CARD
+\* --------------------*/ 
+
+.cards {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.projectimgcontainer{
+    background-color: rgb(159, 51, 143);
+    flex-basis: 25%;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+.projectinfo{
+    background-color: blue;
+    flex-basis: 75%;
+    margin: 0 1rem;
+}
+
+.infotitle {
+    font-size: 1rem;
+}
+
+.infotext {
+    font-size: 0.5rem;
+}
+
+
+
+/*---------------------*\
+     FOOTER
+\* --------------------*/ 
+
+.footer {
+    background-color: red;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: right;
+    margin: 1rem;
+    flex-basis: 10%;
+
+}
+
+
+.linkFront{
+    background-color: antiquewhite;
+    margin:0;
+    padding: 0;
+
+}
+
+/*---------------------*\
+            NAV
+\* --------------------*/ 
+
+
+
+
+
+/*---------------------*\
+     tryin something new 
+\* --------------------*/ 
+
+/*------------EXHIBITS-------------*/
+
+.wrapper {
+    display: grid;
+    gap: 2%;
+    grid-template-columns: repeat(5, 1fr);
+    width: 94%;
+    padding: 4% 0% 8%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 100%;
+    height: 670px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    transition: .5s ease-in-out;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(20px);
+}
+
+.card:before,
+.card img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: linear-gradient(to top, #000000 0%, #16243E 0.01%, rgba(22, 36, 62, 0.37) 100%);
+    z-index: 2;
+    transition: .5s all;
+    opacity: 0;
+}
+
+.card:hover:before {
+    opacity: 1;
+    border-radius: 10px;
+}
+
+.card img {
+    object-fit: cover;
+    object-position: 25%;
+    position: absolute;
+}
+
+
+-- to put some writin over a picture!! 
+.card .info {
+    position: relative;
+    z-index: 3;
+    color: white;
+    opacity: 0;
+    transform: translateY(30px);
+    transition: .5s all;
+}
+
+.card:hover .info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.info {
+    padding-bottom: 20%;
+    width: 85%;
+}
+
+.info p {
+    padding-bottom: 8%;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.exhibits-btn {
+    color: #16243E;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: .9rem;
+    font-weight: 700;
+    transition: .3s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 4%;
+    border: none;
+    text-decoration: none;
+}
+
+#green-btn {
+    background-color: #1be3c5;
+}
+
+#blue-btn {
+    background-color: #41ccff;
+}
+
+#orange-btn {
+    background-color: #FBA729;
+}
+
+#purple-btn {
+    background-color: #B743ED;
+}
+
+#grey-btn {
+    background-color: #ff5c5c;
+}
+
+/*--------------MEDIA QUERIES---------------*/ 
+
+@media only screen and (min-width: 0px) and (max-width: 1180px) {
+    
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .card {
+        margin: 0 auto;
+    }
+
+    .card .info {
+        opacity: 1;
+    }
+
+    .info p {
+        display: none;
+    }
+
+    .card:before {
+        opacity: 1;
+    }
+
+    #polarbear {
+        object-position: 20% 45%;
+    }
+
+    #turtle {
+        object-position: 20% 35%;
+    }
+
+    #dinosaur {
+        object-position: 30% 15%;
+    }
+
+    #robot {
+        object-position: 30% 5%;
+    }
+
+    .text {
+        width: 80%;
+    }
+
+    .dynamic-txt {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+    .card-title {
+        font-size: 1.5rem;
+        padding-bottom: 7%;
+    }
+
+    .card {
+        height: 350px;
+        width: 90%;
+    }
+
+    .text-wrapper {
+        padding: 18% 0% 12%;
+    }
+
+    .text-wrapper .static-txt {
+        font-size: 1.4rem;
+    }
+
+    .dynamic-txt li {
+        font-size: 1.9rem;
+    }
+
+    .text-wrapper {
+        height: 50px;
+    }
+
+    .dynamic-txt li span::before {
+        height: 50px;
+    }
+
+    .exhibits-btn {
+        font-size: .8rem;
+    }
+
+    .wrapper {
+        padding: 10% 0% 20%;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1180px) {
+
+    .text-wrapper {
+        padding: 10% 0% 8%;
+    }    
+
+    .text-wrapper .static-txt {
+        font-size: 2rem;
+    }
+
+    .dynamic-txt li {
+        font-size: 2.3rem;
+    }
+
+    .text-wrapper {
+        height: 60px;
+    }
+
+    .dynamic-txt li span::before {
+        height: 60px;
+    }
+
+    .card {
+        height: 400px;
+        width: 80%;
+    }
+
+    .card .info {
+        padding-bottom: 15%;
+    }
+
+    .card-title {
+        padding-bottom: 5%;
+        font-size: 1.9rem;
+    }
+
+    .exhibits-btn {
+        font-size: 1rem;
+    }
+
+    .text {
+        padding-bottom: 3%;
+    }
+}
