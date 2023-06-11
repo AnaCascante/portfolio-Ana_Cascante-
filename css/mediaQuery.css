@@ -3,8 +3,19 @@
 \* --------------------*/ 
 
 @media screen and (min-width: 0px) and (max-width: 767px) {
+    .Container {
+        flex-wrap: wrap;
+    }    
+
+    .portraitFP, .pc {
+        flex-wrap: wrap;
+        max-width: 40%;
+        
+    }
+    
 
 }
+
 
 /*---------------------*\
    MEDIA QUERIES IPAD
@@ -21,15 +32,7 @@
         
     }
     
-    h1{
-    font-size: 10rem;
-    }
-    h2{
-    font-size: 5rem;
-    }
-    p{
-    font-size: 4rem;
-    }
+  
 }
 
 
@@ -37,59 +40,20 @@
    MEDIA QUERIES DESKTOP
 \* --------------------*/ 
 
-@media screen and (min-width: 1180px)
+@media screen and (min-width: 1180px){
+.Container {
+    flex-wrap: wrap;
+}    
 
-
-
-
-
-
-/* Styles for phone */
-@media screen and (max-width: 480px) {
-    /* CSS rules for phone */
-  }
-  
-  /* Styles for tablet */
-  @media screen and (min-width: 481px) and (max-width: 1024px) {
-    /* CSS rules for tablet */
-  }
-  
-  /* Styles for desktop */
-  @media screen and (min-width: 1025px) {
-    /* CSS rules for desktop */
-  }
-
-@media only screen and (min-width: 0px) and (max-width: 1180px) {
-    .Container {
-        flex-wrap: wrap;
-    }    
+.portraitFP, .pc {
+    flex-wrap: wrap;
+    max-width: 40%;
     
-h1{
-    font-size: 10rem;
 }
-h2{
-    font-size: 5rem;
-}
-p{
-    font-size: 5rem;
-}
+
 }
 
 
-@media only screen and (min-width: 0px) and (max-width: 767px) {
-    .Container {
-        flex-wrap: wrap;
-    } 
-}
-
-
-
-@media only screen and (min-width: 768px) and (max-width: 1180px) {
-    .Container {
-        flex-wrap: wrap;
-    } 
-
-}
 
 /*---------------------*\
   MEDIA QUERIES PROJECTS 
@@ -99,53 +63,59 @@ p{
 
 @media only screen and (min-width: 0px) and (max-width: 1180px) {
     
+img {
+    flex-wrap: wrap;
+    width: 20%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.info {
+    background-color: aquamarine;
+    margin: 0 10% 5%;
+}
+
+.card{
+    display: flex;
+}
    
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-    .card-title {
-        font-size: 1.5rem;
-        padding-bottom: 7%;
-    }
+   
+img {
+    width: 35%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
 
-    .card {
-        height: 350px;
-        width: 90%;
-    }
+.info {
+    background-color: aquamarine;
+    margin: 0 10% 5%;
+}
 
-    .text-wrapper {
-        padding: 18% 0% 12%;
-    }
-
-    .text-wrapper .static-txt {
-        font-size: 1.4rem;
-    }
-
+.card{
+    display: flex;
+}
 @media only screen and (min-width: 768px) and (max-width: 1180px) {
 
-    .text-wrapper {
-        padding: 10% 0% 8%;
-    }    
+    
+img {
+    width: 35%;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
 
+.info {
+    background-color: aquamarine;
+    margin: 0 10% 5%;
+}
 
-    .text-wrapper {
-        height: 60px;
-    }
-
-    .card {
-        height: 400px;
-        width: 80%;
-    }
-
-    .card .info {
-        padding-bottom: 15%;
-    }
-
-    .card-title {
-        padding-bottom: 5%;
-        font-size: 1.9rem;
-    }
-
-    .text {
-        padding-bottom: 3%;
-    }
+.card{
+    display: flex;
 }
