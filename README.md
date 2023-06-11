@@ -55,11 +55,10 @@ Here you can detail any information you want to provide regarding contributing t
 
 ## Contact
 
-This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+Github: https://github.com/AnaCascante
 
-[My Twitter page](www.twitter.com)
+Linkedin: https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile
 
-[My LinkedIn page](www.linkedin.com)
 
 ## License
 
@@ -73,3 +72,4 @@ Pictures used in this portafolio that are not privat are taken from:
 Background picture: https://www.pexels.com/nb-no/bilde/teknologi-display-skjerm-melding-4439901/ 
 icon Github: https://icons8.com/icons/set/github
 icon Linkedin: https://icons8.com/icons/set/linkedin
+icon netlify: https://icons8.com/icons/set/netlify
